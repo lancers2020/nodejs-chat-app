@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.chatheads-parent{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.chatheads-parent:hover{
+    background-color: rgb(222, 222, 222);
+}
+.chatheads-parent img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.chatheads-parent>.chatheads-img-container{
+    position: relative;
+}
+.chatheads-parent span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    border: 3px solid white;
+    bottom: 5px;
+    right: 0;
+}
+.chatheads-name{
+    margin-left: 10px;
+}

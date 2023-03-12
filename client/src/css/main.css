@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-parent{
+    display: flex;
+    justify-content: center;
+}
+
+#section-1{
+    background-color: white;
+    width: 25%;
+    height: 100vh;
+}
+.main-chat{
+    height: 60px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main-search{
+    height: 45px;
+    background-color: rgb(255, 222, 92);
+    margin: 0 20px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.main-search>img{
+    width: 20px;
+    height: 20px;
+}
+.main-search>span{
+    margin-left: 10px;
+}
+
+#section-2{
+    background-color: blue;
+    width: 75%;
+}
